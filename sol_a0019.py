@@ -1,3 +1,5 @@
+#radius - radius of the circle.
+
 def get_circumference(radius):
     circumference = 2*3.14*radius
     if radius < 1:
