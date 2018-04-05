@@ -1,3 +1,6 @@
+#Check if the number is even
+#num = number to be checked
+
 def is_even(num):
     if num % 2 == 0:
         return int(True)
