@@ -1,3 +1,6 @@
+#num1 - First number to be added.
+#num2 - Second number to be added.
+
 def add_two_numbers(num1,num2):
     add = num2+num1
     return add
