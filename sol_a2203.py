@@ -1,3 +1,8 @@
+#Find the maximum of 3 numbers
+# a - First number
+#b - Second number
+#c - Third number
+
 def max_of_three(a,b,c):
     if a > b and a > c:
         return a
@@ -7,7 +12,7 @@ def max_of_three(a,b,c):
         return c
     else:
         print("all are equal")
-
+#user input
 a = int(input("Enter values of a : "))
 b = int(input("Enter value of b : "))
 c = int(input("Enter value of c : "))
