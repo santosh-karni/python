@@ -1,3 +1,5 @@
+#Find aerage of digits of a 5 digit number
+
 def avg_of_5_digits(number):
     num = str(number)
     total = 0
