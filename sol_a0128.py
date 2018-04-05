@@ -6,6 +6,8 @@
 
 is_zero(90)'''
 
+#checks if the number is zero or not.
+
 def is_zero(number):
     if number == 0:
         return True
