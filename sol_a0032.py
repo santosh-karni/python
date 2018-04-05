@@ -1,7 +1,4 @@
-#x = input("entera number :")
-#conversion = 1000
-#mm = x*conversion
-#print(mm)
+#km - KMs to be converted to milli meters.
 
 def convert_kms_to_mms(km):
     converter = km *1000000
