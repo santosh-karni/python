@@ -1,3 +1,5 @@
+#kms - Kilometers to be converted into feet.
+
 def convert_kms_to_feet(kms):
     converter = int(3280.8399*kms)
     return converter
