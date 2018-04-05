@@ -1,3 +1,5 @@
+#number - Number whose digits are to be multiplied.
+
 def product_of_5_digits(number):
     num = str(number)
     product = 1
