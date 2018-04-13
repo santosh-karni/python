@@ -1,6 +1,9 @@
-#number - Number to be reversed
+#! user/bin/python3
+""""Program to reverse a number when a 5 digit number is specified. """
+
 
 def reverse_5_digit_int(number):
+    """Function to reverse a number """
     reminder = 0
     reverse = 0
     while number > 0:
