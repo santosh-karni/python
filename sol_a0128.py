@@ -1,17 +1,24 @@
-'''def is_zero(number):
-    if number == 0:
-        print("number is zero")
-    else:
-        print(number)
+#! /user/bin/python
+""" Write a program to check the given number is Zero orr not when number is specified """
 
-is_zero(90)'''
-
-#checks if the number is zero or not.
 
 def is_zero(number):
+    """ Function to check the number"""
     if number == 0:
-        return True
+        print(True)
     else:
-        return False
+        print(False)
 
-print(is_zero(-2))
+
+def main():
+    """Main function"""
+    try:
+        number = int(input("Enter a number : "))
+        is_zero(number)
+    except ValueError:
+        print("Could not parse the input correctly. Please ensure that you "
+              "are inserting digits only")
+
+
+if __name__ == '__main__':
+    main()
