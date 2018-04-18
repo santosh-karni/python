@@ -1,11 +1,24 @@
-#num1 - First number to be added.
-#num2 - Second number to be added.
+#! /user/bin/python3
+""" Write a program to Add 2 numbers"""
 
-def add_two_numbers(num1,num2):
+
+def add_two_numbers(num1, num2):
+    """Function to add two numbers"""
     add = num2+num1
     return add
 
-a= add_two_numbers(5,6)
-b= add_two_numbers(5,-6)
-print("Value of two postive numbers :", a)
-print("Value of positive and negative  numbers :", b)
+
+def main():
+    """Main Function"""
+    try:
+        num1 = float(input("Enter First Number : "))
+        num2 = float(input("Enter Second Number : "))
+        sum_2 = add_two_numbers(num1, num2)
+        print(sum_2)
+    except ValueError:
+        print("Could not parse the input correctly. Please ensure that you "
+              "are inserting digits only")
+
+
+if __name__ == '__main__':
+    main()
