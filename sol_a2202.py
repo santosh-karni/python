@@ -1,8 +1,10 @@
-#Find maximum  of 2 numbers
-#num1 - The first number.
-#num2 - The second number.
+#! /user/bin/python3
+""" Write a program takes two numbers as arguments and returns the largest of them.
+ Use the if-then-else construct available in your language. """
+
 
 def mymax(num1, num2):
+    """Function to check max. of numbers"""
     if num1 > num2:
         print(num1, "is greater")
     elif num2 > num1:
@@ -10,4 +12,17 @@ def mymax(num1, num2):
     else:
         print("both are equal")
 
-print(mymax(12,12))
+
+def main():
+    """Main Function"""
+    try:
+        num1 = float(input("Enter first number : "))
+        num2 = float(input("Enter second number : "))
+        mymax(num1, num2)
+    except ValueError:
+        print("Could not parse the input correctly. Please ensure that you "
+              "are inserting digits only")
+
+
+if __name__ == '__main__':
+    main()
