@@ -1,10 +1,25 @@
-#check if the number is odd.
-#num - The number to be checked
+#! /user/bin/python3
+"""Write a Program check if a number is odd or not. Return -1 if even, else return 0 """
+
 
 def check_if_odd(num):
-    if num % 2 == 0:
-        return int(False)
+    """Function to check"""
+    if num <= 0:
+        print(num, "is not valid. Retry with positive value")
+    elif num % 2 == 0:
+        print(int(-True))
     else:
-        return int(-True)
+        print(int(False))
 
-print(check_if_odd(-201))
+
+def main():
+    """Main Function"""
+    try:
+        num = int(input("Enter a Number : "))
+        check_if_odd(num)
+    except ValueError:
+        print("Could not parse the input correctly. Please ensure that you "
+              "are inserting digits only")
+
+if __name__ == '__main__':
+    main()
