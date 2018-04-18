@@ -1,21 +1,11 @@
-#a - First digit
-#b - Second digit
-#c - Third digit
-#d - Fourth digit
-#e - Fifth digit
+#! /usr/bin/python3
+""" Program to make the number from digits when 5 digits are specified."""
 
 
-def make_number_from_5_digits(a,b,c,d,e):
-    number = str(a)+str(b)+str(c)+str(d)+str(e)
-    print type(number)
+def make_number_from_5_digits(num1, num2, num3, num4, num5):
+    """Function to make the Number"""
+    number = str(num1)+str(num2)+str(num3)+str(num4)+str(num5)
     return int(number)
 
 
-#user input
-a = int(input("Enter digit a : "))
-b = int(input("Enter digit b : "))
-c = int(input("Enter digit c : "))
-d = int(input("Enter digit d : "))
-e = int(input("Enter digit e : "))
-print(make_number_from_5_digits(a,b,c,d,e))
-#print type(make_number_from_5_digits(a,b,c,d,e))
+print(make_number_from_5_digits(1, 2, 3, 4, 5))
