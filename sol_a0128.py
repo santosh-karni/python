@@ -1,5 +1,5 @@
 #! /user/bin/python
-""" Write a program to check the given number is Zero orr not when number is specified """
+""" Write a program to check the given number is Zero or not when number is specified """
 
 
 def is_zero(number):
