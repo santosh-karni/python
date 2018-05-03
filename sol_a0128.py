@@ -5,16 +5,16 @@
 def is_zero(number):
     """ Function to check the number"""
     if number == 0:
-        print(True)
+        return True
     else:
-        print(False)
+        return False
 
 
 def main():
     """Main function"""
     try:
         number = int(input("Enter a number : "))
-        is_zero(number)
+        print(is_zero(number))
     except ValueError:
         print("Could not parse the input correctly. Please ensure that you "
               "are inserting digits only")

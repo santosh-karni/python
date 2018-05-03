@@ -19,5 +19,6 @@ def main():
         print("Could not parse the input correctly. Please ensure that you "
               "are inserting digits only")
 
+
 if __name__ == '__main__':
     main()

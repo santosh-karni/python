@@ -13,24 +13,24 @@ If the marks is more than 100 or is invalid, return -1 """
 def find_grade(marks):
     """Function to check marks"""
     if 80 < marks <= 100:
-        print("grade 1")
+        return "grade 1"
     elif 60 < marks <= 80:
-        print("Grade 2")
+        return "Grade 2"
     elif 40 < marks <= 60:
-        print("Grade 3")
+        return "Grade 3"
     elif 20 < marks <= 40:
-        print("Grade 4")
+        return "Grade 4"
     elif 0 < marks <= 20:
-        print("Grade 5")
+        return "Grade 5"
     else:
-        print(-1)
+        return -1
 
 
 def main():
     """Main Function"""
     try:
         marks = int(input("Enter obtained marks : "))
-        find_grade(marks)
+        print(find_grade(marks))
     except ValueError:
         print("Could not parse the input correctly. Please ensure that you "
               "are inserting digits only")

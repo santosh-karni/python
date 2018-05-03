@@ -7,19 +7,21 @@ def check_if_odd(num):
     if num <= 0:
         print(num, "is not valid. Retry with positive value")
     elif num % 2 == 0:
-        print(int(-True))
+        return -1
     else:
-        print(int(False))
+        return 0
 
 
 def main():
     """Main Function"""
     try:
         num = int(input("Enter a Number : "))
-        check_if_odd(num)
+        print(check_if_odd(num))
     except ValueError:
         print("Could not parse the input correctly. Please ensure that you "
               "are inserting digits only")
 
+
 if __name__ == '__main__':
     main()
+

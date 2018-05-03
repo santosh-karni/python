@@ -12,16 +12,16 @@ def is_leap_year(year):
     if year <= 0:
         print(False)
     elif year % 4 == 0 and (year % 400 == 0 or year % 100 != 0):
-        print(True)
+        return True
     else:
-        print(False)
+        return False
 
 
 def main():
     """Main Function"""
     try:
         year = int(input("year : "))
-        is_leap_year(year)
+        print(is_leap_year(year))
     except ValueError:
         print("Could not parse the input correctly. Please ensure that you "
               "are inserting digits only")

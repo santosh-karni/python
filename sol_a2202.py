@@ -6,9 +6,9 @@
 def mymax(num1, num2):
     """Function to check max. of numbers"""
     if num1 > num2:
-        print(num1, "is greater")
+        return num1
     elif num2 > num1:
-        print(num2, "is greater")
+        return num2
     else:
         print("both are equal")
 
@@ -18,7 +18,7 @@ def main():
     try:
         num1 = float(input("Enter first number : "))
         num2 = float(input("Enter second number : "))
-        mymax(num1, num2)
+        print(mymax(num1, num2))
     except ValueError:
         print("Could not parse the input correctly. Please ensure that you "
               "are inserting digits only")

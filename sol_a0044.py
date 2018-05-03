@@ -8,9 +8,9 @@ def is_palindrome_number(num):
     var = str(num)
     rev = var[::-1]
     if rev == var:
-        print(0)
+        return 0
     else:
-        print(-1)
+        return -1
 
 
-is_palindrome_number(12345)
+print(is_palindrome_number(12345))
