@@ -1,10 +1,16 @@
-#number - Number whose digits are to be multiplied.
+#! /usr/bin/python3
+""""Program to reverse a number when a 5 digit number is specified. """
 
-def product_of_5_digits(number):
-    num = str(number)
-    product = 1
-    ls = list(num)
-    for i in num:
-        product = product*i
-        print(product)
-product_of_5_digits(12345)
+
+def reverse_5_digit_int(number):
+    """Function to reverse a number """
+    reminder = 0
+    reverse = 0
+    while number > 0:
+        reminder = number%10
+        number = number//10
+        reverse = (reverse*10) + reminder
+    return reverse
+
+
+print(reverse_5_digit_int(12345))

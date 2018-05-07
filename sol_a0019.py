@@ -4,7 +4,7 @@
 
 def get_circumference(radius):
     """Function to find the circumference"""
-    circumference = 2*3.14*radius
+    circumference = 2*3.142*radius
     if radius < 1:
         circumference = 0
         print("enter a  positive value")
@@ -13,6 +13,6 @@ def get_circumference(radius):
 
 
 # r = int(input("Enter the radius of a circle :"))
-A = get_circumference(20)
+#A = get_circumference(20)
 
-print(A)
+#print(A)

@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """which takes a number and the power to be calculated and
 returns the result of x to the power n"""
 
@@ -12,8 +12,8 @@ def find_pow(int_x, int_n):
 def main():
     """Main Function"""
     try:
-        int_x = int(input("Enter a value of x :"))
-        int_n = int(input("Enter n value : "))
+        int_x = float(input("Enter a value of x :"))
+        int_n = float(input("Enter n value : "))
         print(find_pow(int_x, int_n))
     except ValueError:
         print("Could not parse the input correctly. Please ensure that you "

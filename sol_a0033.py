@@ -1,17 +1,17 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """ Write a Program to convert KMs to Feet when passed values in KMs"""
 
 
 def convert_kms_to_feet(kms):
     """Function to convert kms to feet"""
-    converter = int(3280.8399*kms)
+    converter = float(3280.84*kms)
     return converter
 
 
 def main():
     """Main Function"""
     try:
-        kms = int(input("Enter kilometers :"))
+        kms = float(input("Enter kilometers :"))
         result= convert_kms_to_feet(kms)
     except ValueError:
         print(print("Could not parse the input correctly. Please ensure that you \

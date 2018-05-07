@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """ Write a program to  take marks as input and return a number based on the grade obtained.
 
 Grade can be calculated as follows

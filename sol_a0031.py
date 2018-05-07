@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """Write a program when passed the Basic salary, Dearness Allowance (in percentage of Basic)
  and House Rent Allowance in rupees, calculates and returns the gross salary,
  which is the sum of all three."""
@@ -6,7 +6,7 @@
 
 def calculate_gross_salary(basic_salary, dearness_allowance, house_rent):
     """Function to Calculate Gross Salary"""
-    gross_sal = basic_salary+(basic_salary*dearness_allowance)+house_rent
+    gross_sal = basic_salary+(basic_salary*(dearness_allowance/100))+house_rent
     return gross_sal
 
 

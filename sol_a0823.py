@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """ Write a program for calculating the factorial of a number"""
 
 

@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """" program to check whether a given number is a multiple of 3"""
 
 

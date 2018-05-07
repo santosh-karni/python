@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """ Write a program takes two numbers as arguments and returns the largest of them.
  Use the if-then-else construct available in your language. """
 

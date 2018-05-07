@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """
 to check if the valid year passed to the function is a leap year or not.
 Leap year is a year which has 366 days instead of 365 days in a year.

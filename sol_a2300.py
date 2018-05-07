@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """ Write a program to Add 2 numbers"""
 
 
@@ -22,3 +22,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

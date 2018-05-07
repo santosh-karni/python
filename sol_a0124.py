@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """ Program to find the Minimum out of the 3 numbers passed to Function."""
 
 

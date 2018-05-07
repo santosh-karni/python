@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """Program to convert kms to mms when passed value in KMs returns values in Millimeters.
 Your function will not be tested for negative values."""
 
@@ -23,3 +23,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

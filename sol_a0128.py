@@ -1,4 +1,4 @@
-#! /user/bin/python
+#! /usr/bin/python
 """ Write a program to check the given number is Zero or not when number is specified """
 
 

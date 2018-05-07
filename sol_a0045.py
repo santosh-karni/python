@@ -1,4 +1,4 @@
-#! /user/bn/python3
+#! /usr/bn/python3
 """ Write a program when passed the side of a cube, returns the volume of the cube. """
 
 

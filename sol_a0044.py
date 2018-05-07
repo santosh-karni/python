@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """ Write a Program when passed a number checks if
 the number is palindrome or not and returns 0 or -1."""
 

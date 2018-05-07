@@ -1,4 +1,4 @@
-#! /user/bin/python
+#! /usr/bin/python
 """ Write a program when passed a 5 digit number returns the average of the digits"""
 
 
@@ -23,3 +23,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

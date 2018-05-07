@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """" Program to count the number of even digits in a 5 digit number. """
 
 

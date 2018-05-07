@@ -1,6 +1,7 @@
 #cp - The cost price of the product.
 #profit - The profit percentage of the product.
 
+
 def get_profit(cp,profit_percent):
     profit = int(cp*profit_percent)
     return profit

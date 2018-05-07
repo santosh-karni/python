@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """ Write a program to find the Product of two numbers"""
 
 
@@ -20,3 +20,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

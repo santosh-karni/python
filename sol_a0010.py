@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """"Program to reverse a number when a 5 digit number is specified. """
 
 
@@ -13,4 +13,4 @@ def reverse_5_digit_int(number):
     return reverse
 
 
-print(reverse_5_digit_int(12345))
+#reverse_5_digit_int(number)

@@ -1,4 +1,4 @@
-#! /use/bin/python3
+#! /usr/bin/python3
 """ Write a program to check if a number is even or no. Return 0 if the number is even,
  else return -1."""
 

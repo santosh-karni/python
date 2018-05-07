@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """" Write a program to find the Nth element in a geometric progression """
 
 

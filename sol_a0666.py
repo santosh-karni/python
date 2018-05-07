@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """Write a program that takes input an integer and finds sum till that number. """
 
 

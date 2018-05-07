@@ -1,4 +1,4 @@
-#! /user/bin/python3
+#! /usr/bin/python3
 """" Program to passe the Selling Price and Cost Price, returns
 if there is a profit made in the sale."""
 
