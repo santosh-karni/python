@@ -12,4 +12,3 @@ def sum_of_digits(number):
 
 
 #print(sum_of_digits(12))
-#print("this is import")
